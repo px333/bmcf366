@@ -12,13 +12,16 @@
 <body>
 <nav class="nav">
   <div class="container nav-inner">
-    <a class="brand" href="#top"><span class="brand-mark">
-  <img src="assets/logo.png" alt="bmcf.366">
-    </span><span>bmcf.366</span></a>
+    <a class="brand" href="#top"><span class="brand-mark"><img src="assets/logo.png" alt="bmcf.366"></span><span>bmcf.366</span></a>
     <div class="nav-links">
-      <a href="#projects">Projects</a>
-      <a href="#impact">Impact</a>
-      <a href="#contact">Contact</a>
+      <a href="#projects" data-en="Projects" data-pt="Projetos">Projects</a>
+      <a href="#impact" data-en="Impact" data-pt="Impacto">Impact</a>
+      <a href="#contact" data-en="Contact" data-pt="Contacto">Contact</a>
+    </div>
+    <div class="lang-switch" aria-label="Language">
+      <button class="lang-btn active" data-lang="en" type="button">EN</button>
+      <span>|</span>
+      <button class="lang-btn" data-lang="pt" type="button">PT</button>
     </div>
   </div>
 </nav>
@@ -26,12 +29,12 @@
 <main id="top">
 <section class="hero">
   <div class="container">
-    <div class="eyebrow"><span class="dot"></span> Android Development Showcase</div>
-    <h1>Performance-focused <span class="gradient">Android tools &amp; optimization.</span></h1>
-    <p>A concise portfolio of practical Android projects focused on performance tuning, graphics configuration, device diagnostics and user-facing tooling - presented with public-facing evidence.</p>
+    <div class="eyebrow"><span class="dot"></span><span data-en="Android Development Showcase" data-pt="Projetos de Desenvolvimento Android">Android Development Showcase</span></div>
+    <h1><span data-en="Performance-focused " data-pt="Ferramentas Android orientadas para ">Performance-focused </span><span class="gradient" data-en="Android tools & optimization." data-pt="desempenho e otimização.">Android tools & optimization.</span></h1>
+    <p data-en="A concise portfolio of practical Android projects focused on performance tuning, graphics configuration, device diagnostics and user-facing tooling - presented with public-facing evidence." data-pt="Uma seleção de projetos práticos de desenvolvimento Android, com foco em otimização de desempenho, configuração gráfica, diagnóstico de dispositivos e ferramentas orientadas para o utilizador - apresentados através de exemplos e resultados verificáveis.">A concise portfolio of practical Android projects focused on performance tuning, graphics configuration, device diagnostics and user-facing tooling - presented with public-facing evidence.</p>
     <div class="actions">
-      <a class="btn btn-primary" href="#projects">View projects ↓</a>
-      <a class="btn btn-secondary" href="https://t.me/bmcf366" target="_blank" rel="noopener">Documentation channel ↗</a>
+      <a class="btn btn-primary" href="#projects" data-en="View projects ↓" data-pt="Ver projetos ↓">View projects ↓</a>
+      <a class="btn btn-secondary" href="https://t.me/bmcf366" target="_blank" rel="noopener" data-en="Documentation channel ↗" data-pt="Canal de documentação ↗">Documentation channel ↗</a>
     </div>
   </div>
 </section>
@@ -39,13 +42,13 @@
 <section class="section" id="impact">
   <div class="container">
     <div class="section-head">
-      <div><div class="kicker">At a glance</div><h2>Practical results, not just concepts.</h2></div>
-      <p>The projects below show shipped Android tooling and optimization work, including real download traction and visual evidence of the implemented features.</p>
+      <div><div class="kicker" data-en="At a glance" data-pt="Em resumo">At a glance</div><h2 data-en="Practical results, not just concepts." data-pt="Resultados práticos, não apenas conceitos.">Practical results, not just concepts.</h2></div>
+      <p data-en="The projects below show shipped Android tooling and optimization work, including real download traction and visual evidence of the implemented features." data-pt="Os projetos abaixo demonstram ferramentas Android e trabalho de otimização efetivamente desenvolvidos e publicados, incluindo dados reais de downloads e evidências visuais das funcionalidades implementadas.">The projects below show shipped Android tooling and optimization work, including real download traction and visual evidence of the implemented features.</p>
     </div>
     <div class="grid proof-grid">
-      <div class="stat"><strong>100K+</strong><span>downloads across published optimization files</span></div>
-      <div class="stat"><strong>50K+</strong><span>downloads for PixelNova on Google Play</span></div>
-      <div class="stat"><strong>2x+</strong><span>faster app responsiveness via device-specific hardware tuning</span></div>
+      <div class="stat"><strong>100K+</strong><span data-en="downloads across published optimization files" data-pt="downloads de ficheiros de otimização publicados">downloads across published optimization files</span></div>
+      <div class="stat"><strong>50K+</strong><span data-en="downloads for PixelNova on Google Play" data-pt="downloads do PixelNova no Google Play">downloads for PixelNova on Google Play</span></div>
+      <div class="stat"><strong>2x+</strong><span data-en="faster app responsiveness via device-specific hardware tuning" data-pt="maior capacidade de resposta através de otimização específica do dispositivo">faster app responsiveness via device-specific hardware tuning</span></div>
     </div>
   </div>
 </section>
@@ -53,33 +56,35 @@
 <section class="section" id="projects">
 <div class="container">
   <div class="section-head">
-    <div><div class="kicker">Selected projects</div><h2>Three examples of shipped work.</h2></div>
-    <p>Projects are presented as self-contained case studies to maintain professional confidentiality and data privacy.</p>
+    <div><div class="kicker" data-en="Selected projects" data-pt="Projetos selecionados">Selected projects</div><h2 data-en="Three examples of shipped work." data-pt="Três exemplos de projetos desenvolvidos.">Three examples of shipped work.</h2></div>
+    <p data-en="Projects are presented as self-contained case studies to maintain professional confidentiality and data privacy." data-pt="Os projetos são apresentados como casos de estudo independentes, preservando a confidencialidade profissional e a privacidade dos dados.">Projects are presented as self-contained case studies to maintain professional confidentiality and data privacy.</p>
   </div>
 
   <article class="project">
     <div class="project-body">
-      <div class="project-number">01 / Android optimization</div>
-      <h3>Performance Optimization &amp; Graphics Tuning</h3>
-      <p>Published Android optimization packages targeting smoother and more stable frame rates, reduced stuttering and lighter graphics workloads — with a particular focus on making demanding applications more usable on lower-end hardware.</p>
-      <div class="tags"><span class="tag">Android</span><span class="tag">Performance tuning</span><span class="tag">FPS optimization</span><span class="tag">Graphics configuration</span></div>
-      <div class="actions"><a class="btn btn-secondary" href="#mediafire-proof">View Download Analytics ↓</a></div>
+      <div class="project-number" data-en="01 / Android optimization" data-pt="01 / Otimização Android">01 / Android optimization</div>
+      <h3 data-en="Performance Optimization & Graphics Tuning" data-pt="Otimização de Desempenho & Ajustes Gráficos">Performance Optimization & Graphics Tuning</h3>
+      <p data-en="Published Android optimization packages targeting smoother and more stable frame rates, reduced stuttering and lighter graphics workloads — with a particular focus on making demanding applications more usable on lower-end hardware." data-pt="Pacotes de otimização Android desenvolvidos para proporcionar uma experiência mais fluida e estável, reduzir stuttering e diminuir a carga gráfica — com especial foco em tornar aplicações exigentes mais utilizáveis em dispositivos de gama inferior.">Published Android optimization packages targeting smoother and more stable frame rates, reduced stuttering and lighter graphics workloads — with a particular focus on making demanding applications more usable on lower-end hardware.</p>
+      <div class="tags">
+        <span class="tag" data-en="Android" data-pt="Android">Android</span><span class="tag" data-en="Performance tuning" data-pt="Otimização de desempenho">Performance tuning</span><span class="tag" data-en="FPS optimization" data-pt="Otimização de FPS">FPS optimization</span><span class="tag" data-en="Graphics configuration" data-pt="Configuração gráfica">Graphics configuration</span>
+      </div>
+      <div class="actions"><a class="btn btn-secondary" href="#mediafire-proof" data-en="View Download Analytics ↓" data-pt="Ver métricas de downloads ↓">View Download Analytics ↓</a></div>
     </div>
     <div class="media media-wide" id="mediafire-proof">
       <div class="media-shell"><img class="clickable" src="assets/mediafire.jpg" alt="MediaFire file listing showing optimization packages with thousands of downloads" data-full="assets/mediafire.jpg"></div>
-      <div class="note">Aggregated download metrics compiled directly from host distribution channels to illustrate global asset adoption.</div>
+      <div class="note" data-en="Aggregated download metrics compiled directly from host distribution channels to illustrate global asset adoption." data-pt="Métricas de downloads apresentadas diretamente a partir dos canais de distribuição utilizados, demonstrando a adoção dos ficheiros por utilizadores.">Aggregated download metrics compiled directly from host distribution channels to illustrate global asset adoption.</div>
     </div>
   </article>
 
   <article class="project">
     <div class="project-body">
-      <div class="project-number">02 / Collaborative Android app</div>
+      <div class="project-number" data-en="02 / Collaborative Android app" data-pt="02 / Aplicação Android colaborativa">02 / Collaborative Android app</div>
       <h3>PixelNova</h3>
-      <p>Collaborated on the engineering and development of features for PixelNova, an Android performance utility that exposes multiple graphics and performance-related controls, including resolution and frame-rate options, visual optimizations and other internal tuning functions.</p>
-      <div class="tags"><span class="tag">Android app</span><span class="tag">Performance controls</span><span class="tag">Resolution / FPS</span><span class="tag">Visual optimization</span></div>
-      <div class="actions">
-        <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.pixel.nova.gfx.tool" target="_blank" rel="noopener">Open on Google Play ↗</a>
+      <p data-en="Collaborated on the engineering and development of features for PixelNova, an Android performance utility that exposes multiple graphics and performance-related controls, including resolution and frame-rate options, visual optimizations and other internal tuning functions." data-pt="Colaboração no desenvolvimento e implementação de funcionalidades do PixelNova, uma ferramenta Android orientada para desempenho que disponibiliza vários controlos gráficos e de performance, incluindo opções de resolução e taxa de fotogramas, otimizações visuais e outros ajustes internos.">Collaborated on the engineering and development of features for PixelNova, an Android performance utility that exposes multiple graphics and performance-related controls, including resolution and frame-rate options, visual optimizations and other internal tuning functions.</p>
+      <div class="tags">
+        <span class="tag" data-en="Android app" data-pt="Aplicação Android">Android app</span><span class="tag" data-en="Performance controls" data-pt="Controlos de desempenho">Performance controls</span><span class="tag" data-en="Resolution / FPS" data-pt="Resolução / FPS">Resolution / FPS</span><span class="tag" data-en="Visual optimization" data-pt="Otimização visual">Visual optimization</span>
       </div>
+      <div class="actions"><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.pixel.nova.gfx.tool" target="_blank" rel="noopener" data-en="Open on Google Play ↗" data-pt="Abrir no Google Play ↗">Open on Google Play ↗</a></div>
     </div>
     <div class="phones">
       <div class="phone"><img class="clickable" src="assets/pixelnova.jpg" alt="PixelNova app performance controls" data-full="assets/pixelnova.jpg"></div>
@@ -89,20 +94,20 @@
 
   <article class="project">
     <div class="project-body">
-      <div class="project-number">03 / Android utility</div>
-      <h3>PXTool — Graphics, Config &amp; Device Diagnostics</h3>
-      <p>A compact Android utility combining performance controls with technical configuration tooling. It can unlock FPS and graphics options, work with texture settings, encode/decode encrypted configuration CVar data in a text-editor workflow, and present key device-health metrics with clear safety indicators and an overall performance score.</p>
-      <div class="tags"><span class="tag">Android / Java</span><span class="tag">FPS &amp; graphics</span><span class="tag">CVar encode/decode</span><span class="tag">Device diagnostics</span><span class="tag">Performance scoring</span></div>
-      <ul class="feature-list">
-        <li>Performance and graphics-related configuration controls</li>
-        <li>Encrypted CVar configuration decode / encode workflow</li>
-        <li>RAM, storage, battery and temperature monitoring</li>
-        <li>Safety-level indicators and a combined performance score</li>
-      </ul>
-      <div class="actions" style="margin-top:22px">
-        <a class="btn btn-secondary" href="https://t.me/bmcf366/119" target="_blank" rel="noopener">APK / documentation ↗</a>
+      <div class="project-number" data-en="03 / Android utility" data-pt="03 / Ferramenta Android">03 / Android utility</div>
+      <h3>PXTool — Graphics, Config & Device Diagnostics</h3>
+      <p data-en="A compact Android utility combining performance controls with technical configuration tooling. It can unlock FPS and graphics options, work with texture settings, encode/decode encrypted configuration CVar data in a text-editor workflow, and present key device-health metrics with clear safety indicators and an overall performance score." data-pt="Uma ferramenta Android compacta que combina controlos de desempenho com ferramentas técnicas de configuração. Permite desbloquear opções de FPS e gráficos, trabalhar com definições de texturas, codificar/descodificar dados CVar de configuração e apresentar métricas essenciais do dispositivo com indicadores claros de segurança e um índice global de desempenho.">A compact Android utility combining performance controls with technical configuration tooling. It can unlock FPS and graphics options, work with texture settings, encode/decode encrypted configuration CVar data in a text-editor workflow, and present key device-health metrics with clear safety indicators and an overall performance score.</p>
+      <div class="tags">
+        <span class="tag" data-en="Android / Java" data-pt="Android / Java">Android / Java</span><span class="tag" data-en="FPS & graphics" data-pt="FPS e gráficos">FPS & graphics</span><span class="tag" data-en="CVar encode/decode" data-pt="Codificação/descodificação CVar">CVar encode/decode</span><span class="tag" data-en="Device diagnostics" data-pt="Diagnóstico do dispositivo">Device diagnostics</span><span class="tag" data-en="Performance scoring" data-pt="Avaliação de desempenho">Performance scoring</span>
       </div>
-      <div class="note">Explore detailed feature documentation and download the latest release.</div>
+      <ul class="feature-list">
+        <li data-en="Performance and graphics-related configuration controls" data-pt="Controlos de configuração relacionados com desempenho e gráficos">Performance and graphics-related configuration controls</li>
+        <li data-en="Encrypted CVar configuration decode / encode workflow" data-pt="Fluxo de descodificação / codificação de configurações CVar">Encrypted CVar configuration decode / encode workflow</li>
+        <li data-en="RAM, storage, battery and temperature monitoring" data-pt="Monitorização de RAM, armazenamento, bateria e temperatura">RAM, storage, battery and temperature monitoring</li>
+        <li data-en="Safety-level indicators and a combined performance score" data-pt="Indicadores de nível de segurança e um índice combinado de desempenho">Safety-level indicators and a combined performance score</li>
+      </ul>
+      <div class="actions" style="margin-top:22px"><a class="btn btn-secondary" href="https://t.me/bmcf366/119" target="_blank" rel="noopener" data-en="Watch PXTool demo ↗" data-pt="Ver demonstração do PXTool ↗">Watch PXTool demo ↗</a></div>
+      <div class="note" data-en="Video preview available directly through the web." data-pt="Pré-visualização em vídeo disponível diretamente através da web.">Video preview available directly through the web.</div>
     </div>
     <div class="gallery">
       <div class="phone"><img class="clickable" src="assets/pxtool-decoded.jpg" alt="PXTool decoded CVar configuration" data-full="assets/pxtool-decoded.jpg"></div>
@@ -116,10 +121,10 @@
 
 <footer class="footer" id="contact">
   <div class="container footer-inner">
-    <div><strong>bmcf.366</strong><br><span>Optimized Android Apps & Configurations</span></div>
+    <div><strong>bmcf.366</strong><br><span data-en="Optimized Android Apps & Configurations" data-pt="Aplicações Android e Configurações Otimizadas">Optimized Android Apps & Configurations</span></div>
     <div class="small-links">
-      <a href="mailto:bmcf.366@gmail.com Inquiry / Collaboration" target="_blank" rel="noopener">Contact ↗</a>
-      <a href="https://t.me/bmcf366/119" target="_blank" rel="noopener">Documentation ↗</a>
+      <a href="mailto:bmcf.366@gmail.com" data-en="Contact ↗" data-pt="Contacto ↗">Contact ↗</a>
+      <a href="https://t.me/bmcf366/119" target="_blank" rel="noopener" data-en="PXTool demo ↗" data-pt="Demonstração do PXTool ↗">PXTool demo ↗</a>
     </div>
   </div>
 </footer>
@@ -128,20 +133,52 @@
   <button class="close" aria-label="Close">×</button>
   <img id="modalImg" alt="">
 </div>
+
 <script>
-const modal=document.getElementById('modal'), modalImg=document.getElementById('modalImg');
-document.querySelectorAll('.clickable').forEach(img=>{
-  img.addEventListener('click',()=>{
-    modalImg.src=img.dataset.full||img.src;
-    modalImg.alt=img.alt;
+const modal = document.getElementById('modal');
+const modalImg = document.getElementById('modalImg');
+
+document.querySelectorAll('.clickable').forEach(img => {
+  img.addEventListener('click', () => {
+    modalImg.src = img.dataset.full || img.src;
+    modalImg.alt = img.alt;
     modal.classList.add('open');
-    modal.setAttribute('aria-hidden','false');
+    modal.setAttribute('aria-hidden', 'false');
   });
 });
-function closeModal(){modal.classList.remove('open');modal.setAttribute('aria-hidden','true');modalImg.src='';}
-modal.addEventListener('click',e=>{if(e.target===modal)closeModal();});
-document.querySelector('.close').addEventListener('click',closeModal);
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+function closeModal() {
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+  modalImg.src = '';
+}
+
+modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+document.querySelector('.close').addEventListener('click', closeModal);
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+const langButtons = document.querySelectorAll('.lang-btn');
+const translatable = document.querySelectorAll('[data-en][data-pt]');
+
+function setLanguage(lang) {
+  translatable.forEach(element => {
+    element.textContent = element.dataset[lang];
+  });
+  langButtons.forEach(button => {
+    button.classList.toggle('active', button.dataset.lang === lang);
+  });
+  document.documentElement.lang = lang;
+  document.title = lang === 'pt'
+    ? 'bmcf.366 — Projetos de Desenvolvimento Android'
+    : 'bmcf.366 — Android Programming Projects';
+  localStorage.setItem('portfolioLanguage', lang);
+}
+
+langButtons.forEach(button => {
+  button.addEventListener('click', () => setLanguage(button.dataset.lang));
+});
+
+setLanguage(localStorage.getItem('portfolioLanguage') || 'en');
 </script>
 </body>
 </html>
